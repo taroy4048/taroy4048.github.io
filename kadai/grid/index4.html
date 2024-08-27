@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>display：grid｜minmaxで要素の最小幅を指定</title>
+
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+img{
+vertical-align: bottom;
+max-width: 100%;
+}
+header{
+padding: 30% 0;
+background-color: azure;
+text-align: center;
+>h1{
+font-size: clamp(1.375rem, 1.042rem + 1.33vw, 1.875rem);
+}
+}
+main{
+padding: 50px 10px;
+}
+.grid-wrapper{
+width: 96%;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(160px,2fr));
+gap: 14px;
+}
+.box{
+background-color: bisque;
+padding: 10px;
+>p{
+font-size: 14px;
+margin: 10px;
+}
+}
+footer{
+text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>minmaxで要素の最小幅を指定</h1>
+</header>
+
+<main>
+<div class="grid-wrapper">
+
+<div class="box">
+<img src="https://picsum.photos/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+<div class="box">
+<img src="https://picsum.photos/id/237/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+<div class="box">
+<img src="https://picsum.photos/id/11/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+<div class="box">
+<img src="https://picsum.photos/id/26/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+<div class="box">
+<img src="https://picsum.photos/id/37/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+<div class="box">
+<img src="https://picsum.photos/id/17/600/400" alt="">
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, excepturi?</p>
+</div><!-- box -->
+
+</div><!-- /.grid-wrappe -->
+</main>
+
+<footer><p><small>taroy4048.github.io</small></p></footer>
+</body>
+</html>
