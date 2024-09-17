@@ -556,12 +556,9 @@ text-decoration: underline;
 @media (max-width:px){}
 
 /* 多言語化部分 */
-body{
-padding-top: 60px;
-}
 
 #ham-btn{
-top: 60px;
+top: 56px;
 }
 
 .lang-btn{

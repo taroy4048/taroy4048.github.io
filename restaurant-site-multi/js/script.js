@@ -50,13 +50,14 @@ $('#this-year').text('2024 - '+fullYear);
 $('#this-year').text(fullYear);
 }
 
+<script>
 //多言語用のリダイレクト
-$('#btn-jp').href = 'https://taroy4048.github.io/restaurant-site-multi/';
+document.getElementById('#btn-jp').href = 'https://taroy4048.github.io/restaurant-site-multi/';
 //イタリア語のリダイレクト
-$('#btn-it').href = 'https://taroy4048.github.io/restaurant-site-multi/';
+document.getElementById('#btn-it').href = 'https://taroy4048.github.io/restaurant-site-multi/';
 //英語のリダイレクト
-$('#btn-en').href = 'https://taroy4048.github.io/restaurant-site-multi/';
-
+document.getElementById('#btn-en').href = 'https://taroy4048.github.io/restaurant-site-multi/';
+</script>
 });
 
 
