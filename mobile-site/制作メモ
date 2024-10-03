@@ -1,0 +1,28 @@
+購入アイテムの設定
+3杯券：800円　
+6杯券：1500円
+
+購入フォームの項目
+名前
+メールアドレス
+購入チケットの種類と個数
+合計金額
+
+
+<h2>チケット購入画面</h2>
+<form action="confirm.php" method="post"> 
+<dl>
+<dt>3杯券</dt>
+<dd><input type="number" name="num_a" id="num_a" oninput="calcTotal()"></dd>
+<dt>6杯券</dt>
+<dd><input type="number" name="num_b" id="num_b" oninput="calcTotal()"></dd>
+<dt>合計金額</dt>
+<dd><span id="total"></span>円</dd>
+<!-- 確認画面に送信する -->
+<input type="hidden" name="total" id="total_hidden" value="">
+
+<dt>お名前</dt>
+<dd><input type="text" name="onamae" required autocomplete="name" placeholder="お名前を入力して下さい"></dd>
+<dt>メールアドレス</dt>
+<dd><input type="email" name="email" required autocomplete="email"></dd>
+</dl>
