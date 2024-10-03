@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERITA HANTU The Movie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div id="container">
+<div class="wrapper">
+<div class="pages">
+<h2>CERITA HANTU The Movie</h2>
+<div class="pages-wrapper"></div>
+<div class="text-box">
+<p>また、予告編では、ホテルのオーナーであるマドリンが、幽霊を呼び出すために儀式を行っている様子も映されています。マドリンは、ホテルの過去にまつわる秘密を解き明かすために、幽霊の力を借りようとしているようです。
+予告編の最後では、ホテルの従業員たちが、幽霊に襲われる様子が映されています。従業員たちは、恐怖に怯えながら、ホテルから逃げようとしますが、幽霊に追いつかれてしまいます。</p>
+
+<h3>この動画の目次</h3>
+<ol>
+<li>インドネシアとは</li>
+<li>インドネシアの映画</li>
+<li>ホラーのジャンル</li>
+</ol>
+</div><!-- /.text-box -->
+
+<div class="video-wrapper">
+<iframe src="https://www.youtube.com/embed/8MQ0fUckPJ0?si=at9JGbjrhcIWa3AW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><!-- /.video-wrapper -->
+</div><!-- /.pages-wrapper -->
+</div><!-- /.pages -->
+</div><!-- /.wrapper -->
+
+<a href="../page-2" id="next">次のページへ</a>
+</p>
+</div><!-- /#container -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js' integrity='sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==' crossorigin='anonymous'></script>
+
+<script src="js/jquery.clever-infinite-scroll.js"></script>
+
+<script>
+//トップページへのリダイレクト
+setTimeout("redirect()", 0);
+function redirect(){
+    location.href='../index.html';
+}
+
+$('#container').cleverInfiniteScroll({
+contentsWrapperSelector: '#container',
+contentSelector: '.wrapper',
+nextSelector: '#next',
+});
+</script>
+
+
+</body>
+</html>

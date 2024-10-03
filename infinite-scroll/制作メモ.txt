@@ -1,0 +1,25 @@
+動画のURL
+
+CERITA HANTU The Movie
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8MQ0fUckPJ0?si=at9JGbjrhcIWa3AW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+PONTIANAK
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jTXb2W1meh8?si=JuuunYFYMtizdFX3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Nini Thowok
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Okfzxe73Zag?si=LRA-FLCMFkpitXfR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Khurafat MALAYSIAN HORROR 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kvmSNVEPTWw?si=iIFgoOvlZi0gqLKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Dilarang Masuk
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yl47mYTFWmc?si=-tKOOjp9YsCOeHo3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Khanzab
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XMnD69Jjoo0?si=szZ-pJvCqsyT8EHr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
