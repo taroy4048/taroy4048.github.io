@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cssでクリックイベント</title>
+
+<style>
+span{
+display: inline-block;
+padding: 20px 50px;
+background-color: rgb(200, 253, 255);
+margin-bottom: 50px;
+}
+
+.box{
+width: 200px;
+height: 200px;
+}
+
+.box[data-filter="blue"]{
+background-color: blue;
+}
+.box[data-filter="red"]{
+background-color: red;
+}
+.box[data-filter="green"]{
+background-color: rgb(0, 165, 0);
+}
+
+#btn-1:checked ~ .wrapper>.box{
+display: block;
+}
+#btn-2:checked ~ .wrapper>.box:not([data-filter="blue"]){
+display: none;
+}
+#btn-3:checked ~ .wrapper>.box:not([data-filter="red"]){
+display: none;
+}
+#btn-4:checked ~ .wrapper>.box:not([data-filter="green"]){
+display: none;
+}
+
+.wrapper{
+display: flex;
+gap: 0 20px;
+}
+
+[type="radio"]{
+display: none;
+}
+</style>
+</head>
+
+<body>
+
+<input type="radio" id="btn-1" name="click">
+<label for="btn-1"><span>全部</span></label>
+<input type="radio" id="btn-2" name="click">
+<label for="btn-2"><span>青ボタン</span></label>
+<input type="radio" id="btn-3" name="click">
+<label for="btn-3"></label><span>赤ボタン</span></label>
+<input type="radio" id="btn-4" name="click">
+<label for="btn-4"></label><span>緑ボタン</span></label>
+
+<div class="wrapper">
+
+<div class="box" data-filter="blue">青</div>
+<div class="box" data-filter="blue">青</div>
+<div class="box" data-filter="red">赤</div>
+<div class="box" data-filter="red">赤</div>
+<div class="box" data-filter="green">緑</div>
+<div class="box" data-filter="green">緑</div>
+</div>
+
+</body>
+</html>
