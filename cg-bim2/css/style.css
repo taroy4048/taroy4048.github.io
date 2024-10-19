@@ -531,6 +531,7 @@ display: none;
 }
 #bim:checked~.works-box-wrapper>.works-box:not([data-category="bim"]){
 display: none;
+
 }
 #vr:checked~.works-box-wrapper>.works-box:not([data-category="vr"]){
 display: none;
