@@ -16,6 +16,7 @@
 <p class="tag-line">ビジョンを形にする<br>
 建築CGパースで新たな未来を描こう</p>
 </header>
+
 <nav class="pc-nav">
 <ul>
 <li><a href="#top">トップ</a>
@@ -53,13 +54,8 @@
 </div><!-- /.menu-box -->
 
 <div class="menu-box">
-<a href="#"><img src="https://placehold.jp/300x200.png" alt="">
+<a href="/about/"><img src="https://placehold.jp/300x200.png" alt="">
 <span>採用情報</span></a>
-</div><!-- /.menu-box -->
-
-<div class="menu-box">
-<a href="#"><img src="https://placehold.jp/300x200.png" alt="">
-<span>社長のあいさつ</span></a>
 </div><!-- /.menu-box -->
 
 </div><!-- /.menu-inner -->
@@ -70,6 +66,17 @@
 <li><a href="#">Facebook</a></li>
 </ul>
 </nav>
+
+<nav id="sp-nav">
+<ul>
+<li><a href="#">トップ</a></li>
+<li><a href="#">実績紹介</a></li>
+<li><a href="#">会社紹介</a></li>
+<li><a href="#">資料請求</a></li>
+<li><a href="#"><img src="../img/facebook.svg" alt=""></a></li>
+</ul>
+</nav>
+
 <div class="main-visual">
 <img src="img/main.webp" alt="">
 </div>
@@ -208,7 +215,13 @@ BIM
 </section>
 
 <section id="about" class="page-section">
-<h3>私たちについて</h3>
+<h3>私たち「CG-BIM Studio」にできること</h3>
+
+<div class="about-photo">
+<img src="https://placehold.jp/800x600.png" alt="">
+</div>
+<p class="about-copy">「最先端技術で建築の未来を創ります」</p>
+<p class="about-copy">建築パース、BIM、VRなど幅広い3DCGサービスを提供し、AIや画像生成AIの導入支援で、建築設計の効率化をサポート。あなたの建築プロジェクトを、テクノロジーで革新的にサポートします。</p>
 </section>
 
 <section id="voice" class="page-section">
@@ -257,5 +270,18 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam hic quia, delen
 <footer>
 <p><small>&copy 2011-2024 CG-BIM Studio</small></p>
 </footer>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+
+<script>
+$(function (){
+$('#ham-btn').on('click',function(){
+$(this).toggleClass('click');
+$('#sp-nav').toggleClass('slide');
+
+});
+});
+</script>
+
 </body>
 </html>
